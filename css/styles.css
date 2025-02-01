@@ -30,6 +30,98 @@ p {
   line-height: 0.8;
 }
 /* Common Styling Ended */
+
+/* Testimonial Started  */
+#testimonial {
+}
+#testimonial .testimonialbg {
+  padding: 140px 0 65px 82px;
+  background-color: rgba(245, 245, 245, 1);
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.test_title_wrapper .testimonial_title {
+  color: rgba(5, 160, 129, 1);
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.test_title_wrapper h3 {
+  color: rgba(41, 49, 61, 1);
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 52px;
+  width: 366px;
+  margin-bottom: 40px;
+}
+.test_title_wrapper .real_des {
+  color: rgba(41, 49, 61, 0.5);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 51px;
+  text-align: justify;
+}
+
+.pro_right {
+}
+.pro_pic_wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 22px;
+  margin-bottom: 58px;
+}
+.pro_pic_wrapper img {
+  width: 81px;
+}
+.pro_right .name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 8px;
+}
+.pro_right .desig {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(41, 49, 61, 0.5);
+}
+.counter {
+  display: flex;
+  justify-content: space-between;
+}
+.counter .item1 {
+}
+.counter .item1 h3 {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 57px;
+  margin-bottom: -10px;
+}
+.counter .item1 p {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+.testimonial_wrapper {
+  position: relative;
+}
+.testimonial_slider {
+  position: absolute;
+  top: -200px;
+  right: -60px;
+}
+.testimonial_slider img {
+  width: 100%;
+  height: auto;
+}
+/* Testimonial Ended  */
+
 /* Teammember Started  */
 #teammember {
   padding: 180px 0;
@@ -59,6 +151,8 @@ p {
 .teamwrapper button {
   font-weight: 700;
   font-size: 18px;
+  background-color: rgba(5, 160, 129, 1);
+  padding: 15px 18px;
 }
 /* Teammember Ended  */
 /* footer section started  */
