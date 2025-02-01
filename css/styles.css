@@ -30,7 +30,37 @@ p {
   line-height: 0.8;
 }
 /* Common Styling Ended */
+/* Teammember Started  */
+#teammember {
+  padding: 180px 0;
+}
+#teammember .Team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+#teammember img {
+  width: 100%;
+  height: auto;
+}
+.teamwrapper p {
+  color: rgba(5, 160, 129, 1);
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.teamwrapper h3 {
+  color: rgba(41, 49, 61, 1);
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 107px;
+}
+.teamwrapper button {
+  font-weight: 700;
+  font-size: 18px;
+}
+/* Teammember Ended  */
 /* footer section started  */
 #footer {
   background-color: rgba(5, 160, 129, 1);
@@ -82,6 +112,7 @@ p {
 }
 .contact_wrapper {
   display: flex;
+  align-items: center;
 }
 .contact_wrapper .contact-info h4 {
   color: rgba(255, 255, 255, 1);
