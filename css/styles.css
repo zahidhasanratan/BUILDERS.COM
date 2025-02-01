@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "ArialCustom"; /* Custom name to use in CSS */
+  src: url("/fonts/Arial.ttf") format("truetype"); /* Ensure the path is correct */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Common Styling Started */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ArialCustom", sans-serif;
+}
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 0.8;
+}
+/* Common Styling Ended */
+
+/* footer section started  */
+#footer {
+  background-color: rgba(5, 160, 129, 1);
+  padding-top: 52px;
+  padding-bottom: 21px;
+}
+.footer_left_des {
+  display: flex;
+  flex-direction: column;
+}
+.footer_left_des img {
+  margin-bottom: 58px;
+}
+.footer_left_des input {
+  border: none;
+  border-bottom: 1.5px solid white;
+  background-color: transparent;
+  width: 85%;
+  margin-bottom: 22px;
+}
+.footer_left_des input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9px;
+}
+.footer_left_des p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+  margin-bottom: 37px;
+}
+
+.social_icon {
+  display: flex;
+  column-gap: 42px;
+}
+.social_icon i {
+  width: 12px;
+  height: auto;
+  color: white;
+}
+.copyright p {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18.5px;
+}
+.contact_wrapper {
+  display: flex;
+}
+.contact_wrapper .contact-info h4 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  margin-bottom: 21px;
+}
+.contact_wrapper .contact-info p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.divider {
+  content: "";
+  height: 200px;
+  width: 1.5px;
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 1px;
+  margin: 0 auto;
+}
+/* footer section ended  */
