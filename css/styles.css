@@ -31,7 +31,57 @@ p {
 }
 
 /* Common Styling Ended */
+/* whatweoffer styling started  */
+#whatweoffer {
+  margin: 180px 0;
+}
+.what_we_offer_wrapper .what_title {
+  font-weight: 700;
+  color: rgba(5, 160, 129, 1);
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.what_we_offer_wrapper h3 {
+  font-weight: 700;
+  color: rgba(41, 49, 61, 1);
+  font-size: 45px;
+  margin-bottom: 51px;
+  width: 640px;
+}
+.what_we_offer_wrapper .nav-tabs .active {
+  font-weight: 700;
+  font-style: 16px;
+  color: rgba(5, 160, 129, 1) !important;
+}
+.what_we_offer_wrapper .nav-tabs {
+  border-bottom: 1.5px solid rgba(215, 224, 242, 0.6);
+  margin-bottom: 75px;
+}
+.what_we_offer_wrapper .nav-link {
+  font-weight: 400;
+  font-style: 16px;
+  color: rgba(41, 49, 61, 0.5) !important;
+}
+.tabbing_description {
+  display: flex;
+}
+.tabbing_description .text-muted {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(41, 49, 61, 0.5);
+  line-height: 37px;
+  margin-bottom: 100px;
+}
+.tabbing_description a {
+  color: rgba(5, 160, 129, 1);
+  border-radius: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 16px 18px;
+}
 
+/* whatweoffer styling ended  */
 /* seeallvideo styling strted  */
 #seeallvideo {
   background: url("/images/allvideobg.png");
