@@ -31,6 +31,58 @@ p {
 }
 /* Common Styling Ended */
 
+/* residentials styling started  */
+#residentials {
+  margin: 180px 0;
+}
+#residentials .residen_wrapper {
+}
+#residentials .residen_wrapper p {
+  color: rgba(5, 160, 129, 1);
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+#residentials .residen_wrapper h3 {
+  color: rgba(41, 49, 61, 1);
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 51px;
+  margin-bottom: 43px;
+}
+.residential_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 100px;
+}
+.residential_cards .bottom {
+  margin-top: 60px;
+}
+
+.residential_cards .card {
+  border-radius: 0 !important;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+.residential_cards img {
+  border-radius: 0 !important;
+  width: 100%;
+  height: auto;
+}
+.residential_cards .card-title {
+  font-weight: 700;
+  font-size: 28px;
+  color: rgba(41, 49, 61, 1);
+}
+.residential_cards .card-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(41, 49, 61, 1);
+}
+
+/* residentials styling ended  */
+
 /* Testimonial Started  */
 #testimonial {
 }
