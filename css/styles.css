@@ -31,6 +31,66 @@ p {
 }
 
 /* Common Styling Ended */
+/* Header Started  */
+#Banner {
+  background: url("/images/banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
+.navbar {
+  margin-top: 50px !important;
+}
+.navbar li a {
+  font-weight: 700;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+}
+.navbar .nav-item {
+  position: relative;
+  padding-right: 25px;
+}
+.navbar-nav .nav-item:not(:last-child)::after {
+  content: "/";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-weight: bold;
+}
+.banner_left_wrapper .banner_title {
+  margin-top: 228px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.banner_left_wrapper .fw-bold {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 86px;
+  line-height: 110px;
+  margin-bottom: 40px;
+}
+.banner_left_wrapper .bannerdes {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 40px;
+}
+.input_container {
+  margin-bottom: 40px;
+}
+.banner_button button {
+  margin-bottom: 200px;
+  padding: 16px 18px;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* Header ended  */
 /* agencty styling started  */
 .about-agency {
   margin: 180px 0;
