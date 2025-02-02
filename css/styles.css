@@ -29,8 +29,56 @@ h6,
 p {
   line-height: 0.8;
 }
+
 /* Common Styling Ended */
 
+/* seeallvideo styling strted  */
+#seeallvideo {
+  background: url("/images/allvideobg.png");
+  height: 400px;
+  width: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 273px;
+}
+#seeallvideo .seetitle {
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(5, 160, 129, 1);
+  margin-bottom: 40px;
+}
+.see_video_wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 64px;
+  margin-bottom: 273px;
+}
+.see_video_wrapper button {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: rgba(5, 160, 129, 1);
+  padding: 15px 18px;
+}
+
+.video_rigt_container .vdtitle {
+  color: rgba(0, 0, 0, 1);
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  width: 435px;
+  margin-bottom: 30px;
+}
+.video_rigt_container .vddescription {
+  color: rgba(41, 49, 61, 0.5);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+/* see all video styling ended  */
 /* residentials styling started  */
 #residentials {
   margin: 180px 0;
@@ -46,7 +94,7 @@ p {
 #residentials .residen_wrapper h3 {
   color: rgba(41, 49, 61, 1);
   font-weight: 700;
-  font-size: 45px;
+  font-size: 42px;
   line-height: 51px;
   margin-bottom: 43px;
 }
@@ -80,7 +128,13 @@ p {
   font-size: 14px;
   color: rgba(41, 49, 61, 1);
 }
-
+.meet_button button {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: rgba(5, 160, 129, 1);
+  padding: 15px 18px;
+  margin-top: 100px;
+}
 /* residentials styling ended  */
 
 /* Testimonial Started  */
