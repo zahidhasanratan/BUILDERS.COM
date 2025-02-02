@@ -31,6 +31,43 @@ p {
 }
 
 /* Common Styling Ended */
+/* agencty styling started  */
+.about-agency {
+  margin: 180px 0;
+}
+.about_agency_wrapper {
+  display: flex;
+}
+.about_agency_wrapper .agency_title {
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(5, 160, 129, 1);
+  margin-bottom: 40px;
+}
+.about_agency_wrapper h3 {
+  font-weight: 700;
+  font-size: 40px;
+  color: rgba(41, 49, 61, 1);
+  margin-bottom: 50px;
+  line-height: 50px;
+}
+.about_agency_wrapper .text-muted {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(41, 49, 61, 0.5);
+}
+.about_agency_wrapper a {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(5, 160, 129, 1);
+  padding: 12px 24px;
+  background-color: white;
+}
+
+.about_agency_wrapper .agencyrightimg {
+}
+/* agencty styling ended  */
 /* whatweoffer styling started  */
 #whatweoffer {
   margin: 180px 0;
