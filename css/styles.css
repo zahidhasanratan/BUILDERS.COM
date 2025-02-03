@@ -33,7 +33,7 @@ p {
 /* Common Styling Ended */
 /* Header Started  */
 #Banner {
-  background: url("/images/banner.png");
+  background: url("../images/banner.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
