@@ -38,6 +38,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
+  position: relative;
 }
 .navbar {
   margin-top: 50px !important;
@@ -60,6 +61,20 @@ p {
   transform: translateY(-50%);
   color: white;
   font-weight: bold;
+}
+.social_banner{
+  position: absolute;
+  left: 0;
+  top: 38%;
+}
+
+.social_banner .follow_us h5 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  position: absolute; 
+  transform: rotate(90deg);
+  /* transform-origin: left bottom; */
 }
 .banner_left_wrapper .banner_title {
   margin-top: 228px;
