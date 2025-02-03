@@ -134,6 +134,12 @@ p {
   line-height: 33px;
   margin-bottom: 40px;
 }
+.banner_left_wrapper .form-select {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(41, 49, 61, 0.5);
+  padding: 12px 30px;
+}
 .input_container {
   margin-bottom: 40px;
 }
@@ -176,7 +182,7 @@ p {
 }
 .agency_content {
   position: absolute;
-  left: -155px;
+  left: -100px;
 }
 .about_agency_wrapper h3 {
   font-weight: 700;
@@ -281,7 +287,7 @@ p {
 }
 .ResidentialImg img {
   position: absolute;
-  right: 100px;
+  right: -100px;
 }
 
 /* whatweoffer styling ended  */
@@ -311,7 +317,7 @@ p {
   margin-bottom: 273px;
   position: absolute;
   top: 40px;
-  left: -155px;
+  left: -100px;
 }
 .see_video_wrapper button {
   font-weight: 700;
