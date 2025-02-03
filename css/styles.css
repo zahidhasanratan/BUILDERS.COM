@@ -68,17 +68,28 @@ p {
   left: -700px;
   top: 38%;
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-  gap: 10px; /* Add space between items */
+  flex-direction: column;
+  align-items: center;
 }
-
+.social_banner .follow_us {
+  margin-right: 188px;
+}
 .social_banner .follow_us h5 {
   font-size: 22px;
   font-weight: 700;
   color: white;
   transform: rotate(90deg);
-  margin-bottom: 80px;
+}
+
+.social_banner .follow_us .divider {
+  content: "";
+  height: 110px;
+  width: 1.5px;
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 1px;
+  /* margin: 122px auto; */
+  margin-top: 100px;
 }
 
 .social_banner ul {
@@ -148,16 +159,24 @@ p {
 /* Header ended  */
 /* agencty styling started  */
 .about-agency {
-  margin: 180px 0;
+  padding: 180px 0;
 }
 .about_agency_wrapper {
   display: flex;
+  justify-content: space-between;
 }
 .about_agency_wrapper .agency_title {
   font-weight: 700;
   font-size: 18px;
   color: rgba(5, 160, 129, 1);
   margin-bottom: 40px;
+}
+.agency_left {
+  position: relative;
+}
+.agency_content {
+  position: absolute;
+  left: -155px;
 }
 .about_agency_wrapper h3 {
   font-weight: 700;
@@ -170,7 +189,10 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: rgba(41, 49, 61, 0.5);
+  color: rgba(41, 49, 61, 0.5) !important;
+  margin-top: 90px;
+  padding-right: 123px;
+  margin-bottom: 130px;
 }
 .about_agency_wrapper a {
   font-weight: 700;
