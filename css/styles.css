@@ -200,12 +200,27 @@ p {
   margin-bottom: 51px;
   width: 640px;
 }
-.what_we_offer_wrapper .nav-tabs .active {
+.what_we_offer_wrapper .nav {
+  border-bottom: 1.5px solid rgba(215, 224, 242, 0.6);
+  width: 970px;
+}
+.what_we_offer_wrapper .nav-item .active {
   font-weight: 700;
   font-style: 16px;
   color: rgba(5, 160, 129, 1) !important;
+  position: relative;
 }
-.what_we_offer_wrapper .nav-tabs {
+.what_we_offer_wrapper .nav-item .active::after {
+  content: "";
+  background-color: rgba(5, 160, 129, 1);
+  width: 27px;
+  height: 6px;
+  position: absolute;
+  top: 37px;
+  left: 50px;
+}
+
+.what_we_offer_wrapper {
   border-bottom: 1.5px solid rgba(215, 224, 242, 0.6);
   margin-bottom: 75px;
 }
@@ -214,8 +229,13 @@ p {
   font-style: 16px;
   color: rgba(41, 49, 61, 0.5) !important;
 }
+.what_we_offer_wrapper .nav-item {
+  margin-right: 40px;
+}
 .tabbing_description {
   display: flex;
+  margin-top: 78px;
+  justify-content: space-between;
 }
 .tabbing_description .text-muted {
   font-size: 20px;
@@ -225,12 +245,21 @@ p {
   margin-bottom: 100px;
 }
 .tabbing_description a {
-  color: rgba(5, 160, 129, 1);
-  border-radius: 0;
-  color: white;
+  border-radius: 5px;
+  color: white !important;
   font-size: 18px;
   font-weight: 700;
+  background-color: rgba(5, 160, 129, 1);
+  border: none;
+  outline: none;
   padding: 16px 18px;
+}
+.ResidentialImg {
+  position: relative;
+}
+.ResidentialImg img {
+  position: absolute;
+  right: 100px;
 }
 
 /* whatweoffer styling ended  */
@@ -250,17 +279,25 @@ p {
   color: rgba(5, 160, 129, 1);
   margin-bottom: 40px;
 }
+#seeallvideo .seevideo_title {
+  position: relative;
+}
 .see_video_wrapper {
   display: flex;
   align-items: center;
   column-gap: 64px;
   margin-bottom: 273px;
+  position: absolute;
+  top: 40px;
+  left: -155px;
 }
 .see_video_wrapper button {
   font-weight: 700;
   font-size: 18px;
   background-color: rgba(5, 160, 129, 1);
   padding: 15px 18px;
+  border: none;
+  outline: none;
 }
 
 .video_rigt_container .vdtitle {
@@ -303,7 +340,7 @@ p {
 .residential_cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 100px;
+  gap: 100px;
 }
 .residential_cards .bottom {
   margin-top: 60px;
@@ -319,6 +356,7 @@ p {
   border-radius: 0 !important;
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 .residential_cards .card-title {
   font-weight: 700;
@@ -336,6 +374,8 @@ p {
   background-color: rgba(5, 160, 129, 1);
   padding: 15px 18px;
   margin-top: 100px;
+  border: none;
+  outline: none;
 }
 /* residentials styling ended  */
 
@@ -408,7 +448,7 @@ p {
   font-weight: 700;
   font-size: 50px;
   line-height: 57px;
-  margin-bottom: -10px;
+  margin-bottom: -5px;
 }
 .counter .item1 p {
   color: rgba(0, 0, 0, 1);
