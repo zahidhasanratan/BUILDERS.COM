@@ -62,20 +62,46 @@ p {
   color: white;
   font-weight: bold;
 }
-.social_banner{
+
+.social_banner {
   position: absolute;
-  left: 0;
+  left: -700px;
   top: 38%;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  gap: 10px; /* Add space between items */
 }
 
 .social_banner .follow_us h5 {
   font-size: 22px;
   font-weight: 700;
   color: white;
-  position: absolute; 
   transform: rotate(90deg);
-  /* transform-origin: left bottom; */
+  margin-bottom: 80px;
 }
+
+.social_banner ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Stack icons vertically */
+  gap: 10px; /* Add space between social icons */
+}
+
+.social_banner ul li {
+  display: flex;
+  justify-content: center;
+}
+
+.social_banner ul li a {
+  color: white;
+  font-size: 32px;
+  text-decoration: none;
+  margin-bottom: 74px;
+}
+
 .banner_left_wrapper .banner_title {
   margin-top: 228px;
   color: rgba(255, 255, 255, 1);
@@ -106,19 +132,18 @@ p {
   font-size: 15px;
   font-weight: 700;
 }
-.right_nav{
+.right_nav {
   column-gap: 60px;
 }
-.right_nav i{
-color: white;
-height: 24px;
-width: 24px;
+.right_nav i {
+  color: white;
+  height: 24px;
+  width: 24px;
 }
-.right_nav img{
-height: 24px;
-width: 24px;
+.right_nav img {
+  height: 24px;
+  width: 24px;
 }
-
 
 /* Header ended  */
 /* agencty styling started  */
@@ -450,6 +475,7 @@ width: 24px;
 }
 .footer_left_des img {
   margin-bottom: 58px;
+  width: 210px;
 }
 .footer_left_des input {
   border: none;
@@ -490,6 +516,7 @@ width: 24px;
 .contact_wrapper {
   display: flex;
   align-items: center;
+  margin: 0 40px;
 }
 .contact_wrapper .contact-info h4 {
   color: rgba(255, 255, 255, 1);
@@ -503,6 +530,7 @@ width: 24px;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
+  width: 203px;
 }
 .divider {
   content: "";
@@ -511,6 +539,6 @@ width: 24px;
   color: white;
   border: 1.5px solid white;
   border-radius: 1px;
-  margin: 0 auto;
+  margin: 38px auto;
 }
 /* footer section ended  */
