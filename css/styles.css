@@ -41,6 +41,7 @@ p {
 }
 .navbar {
   margin-top: 50px !important;
+  border-bottom: 1.5px solid rgba(215, 224, 242, 0.5);
 }
 .navbar li a {
   font-weight: 700;
@@ -90,6 +91,20 @@ p {
   font-size: 18px;
   font-weight: 700;
 }
+.right_nav{
+  column-gap: 60px;
+}
+.right_nav i{
+color: white;
+height: 24px;
+width: 24px;
+}
+.right_nav img{
+height: 24px;
+width: 24px;
+}
+
+
 /* Header ended  */
 /* agencty styling started  */
 .about-agency {
