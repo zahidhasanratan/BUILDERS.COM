@@ -433,6 +433,7 @@ p {
 /* Teammember Started  */
 #teammember {
   padding: 180px 0;
+  margin-left: 40px;
 }
 #teammember .Team {
   display: flex;
@@ -461,6 +462,8 @@ p {
   font-size: 18px;
   background-color: rgba(5, 160, 129, 1);
   padding: 15px 18px;
+  border: none;
+  outline: none;
 }
 /* Teammember Ended  */
 /* footer section started  */
@@ -534,7 +537,7 @@ p {
 }
 .divider {
   content: "";
-  height: 200px;
+  height: 193px;
   width: 1.5px;
   color: white;
   border: 1.5px solid white;
