@@ -1,0 +1,228 @@
+/* Responsive CSS */
+
+/* Common Responsive Styles */
+@media (max-width: 1200px) {
+  /* Adjustments for large desktops */
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-nav .nav-item {
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar-nav .nav-item:not(:last-child)::after {
+    display: none;
+  }
+
+  .banner_left_wrapper .fw-bold {
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  .about_agency_wrapper h3 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .what_we_offer_wrapper h3 {
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .what_we_offer_wrapper .nav {
+    width: 100%;
+  }
+
+  .see_video_wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .video_rigt_container .vdtitle,
+  .video_rigt_container .vddescription {
+    width: 100%;
+  }
+
+  .residential_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonialbg {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+
+  .testimonial_slider {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .teamwrapper h3 {
+    font-size: 35px;
+  }
+
+  .contact_wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .divider {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Adjustments for tablets */
+  .banner_left_wrapper .fw-bold {
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  .about_agency_wrapper {
+    flex-direction: column;
+  }
+
+  .agency_content {
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  .about_agency_wrapper .text-muted {
+    padding-right: 0;
+  }
+
+  .what_we_offer_wrapper h3 {
+    font-size: 30px;
+  }
+
+  .what_we_offer_wrapper .nav {
+    flex-direction: column;
+  }
+
+  .what_we_offer_wrapper .nav-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .tabbing_description {
+    flex-direction: column;
+  }
+
+  .ResidentialImg img {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .residential_cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .teamwrapper h3 {
+    font-size: 30px;
+  }
+
+  .contact_wrapper .contact-info {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Adjustments for small tablets and large phones */
+  .banner_left_wrapper .fw-bold {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .about_agency_wrapper h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .what_we_offer_wrapper h3 {
+    font-size: 25px;
+  }
+
+  .see_video_wrapper {
+    margin-bottom: 50px;
+  }
+
+  .testimonialbg {
+    padding: 30px 10px;
+  }
+
+  .test_title_wrapper h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .teamwrapper h3 {
+    font-size: 25px;
+  }
+
+  .footer_left_des input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Adjustments for mobile phones */
+  .navbar {
+    margin-top: 0 !important;
+    border: none;
+  }
+  .navbar-toggler {
+    background-color: white !important;
+  }
+  .banner_left_wrapper .fw-bold {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .banner_left_wrapper .bannerdes {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .about_agency_wrapper h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .what_we_offer_wrapper h3 {
+    font-size: 20px;
+  }
+
+  .see_video_wrapper {
+    margin-bottom: 30px;
+  }
+
+  .testimonialbg {
+    padding: 20px 5px;
+  }
+
+  .test_title_wrapper h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .teamwrapper h3 {
+    font-size: 20px;
+  }
+  .footer_left_des {
+    text-align: center;
+  }
+  .footer_left_des img {
+    width: 150px;
+  }
+
+  .footer_left_des input {
+    width: 100%;
+  }
+
+  .contact_wrapper .contact-info p {
+    font-size: 16px;
+  }
+}
