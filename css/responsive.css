@@ -194,7 +194,7 @@
   .about_agency_wrapper .agencyrightimg {
     width: 100%;
     overflow: hidden;
-}
+  }
   .what_we_offer_wrapper h3 {
     font-size: 20px;
   }
@@ -202,7 +202,7 @@
   .see_video_wrapper {
     margin-bottom: 30px;
   }
-  .see_video_wrapper img{
+  .see_video_wrapper img {
     width: 100%;
   }
 
@@ -218,18 +218,86 @@
   .teamwrapper h3 {
     font-size: 20px;
   }
-  .footer_left_des {
+  #footer {
+    padding-top: 30px;
+    padding-bottom: 15px;
     text-align: center;
   }
+
+  .contact_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .contact_wrapper .contact-info p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    /* width: 203px; */
+    /* text-align: ; */
+    margin: auto;
+  }
   .footer_left_des img {
-    width: 150px;
+    margin-bottom: 30px;
+    width: 250px;
+    margin: 20px auto;
   }
 
   .footer_left_des input {
-    width: 100%;
+    width: 80%;
+    font-size: 14px;
+    margin: 10px auto;
   }
 
-  .contact_wrapper .contact-info p {
+  .footer_left_des input::placeholder {
+    text-align: center; 
+}
+  .footer_left_des p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  .social_icon {
+    justify-content: center;
+    column-gap: 30px;
+    padding: 20px 0;
+  }
+  .contact_wrapper .contact-info h4 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 21px;
+  }
+  .social_icon i {
+    font-size: 26px;
+  }
+
+  .divider {
+    height: 1px;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .contact-info {
+    margin-top: 20px;
+  }
+
+  .contact-info h4 {
     font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .contact-info p {
+    font-size: 14px;
+    width: auto;
+  }
+
+  .copyright p {
+    font-size: 18px;
+    margin-top: 15px;
   }
 }
