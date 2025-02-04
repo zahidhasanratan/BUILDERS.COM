@@ -191,12 +191,19 @@
     line-height: 35px;
   }
 
+  .about_agency_wrapper .agencyrightimg {
+    width: 100%;
+    overflow: hidden;
+}
   .what_we_offer_wrapper h3 {
     font-size: 20px;
   }
 
   .see_video_wrapper {
     margin-bottom: 30px;
+  }
+  .see_video_wrapper img{
+    width: 100%;
   }
 
   .testimonialbg {
