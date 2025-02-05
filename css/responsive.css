@@ -91,16 +91,27 @@
   }
 
   .about_agency_wrapper .text-muted {
-    padding-right: 0;
-  }
-
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(41, 49, 61, 0.5) !important;
+    margin-top: 47px;
+    text-align: justify;
+    padding: 0 5px;
+    margin-bottom: 30px;
+}
+.our_Real_div{
+  text-align: center;
+}
+#whatweoffer {
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
   .what_we_offer_wrapper h3 {
     font-size: 30px;
   }
 
-  .what_we_offer_wrapper .nav {
-    flex-direction: column;
-  }
+ 
 
   .what_we_offer_wrapper .nav-item {
     margin-right: 0;
@@ -153,10 +164,7 @@
     padding: 30px 10px;
   }
 
-  .test_title_wrapper h3 {
-    font-size: 30px;
-    line-height: 40px;
-  }
+ 
 
   .teamwrapper h3 {
     font-size: 25px;
@@ -185,11 +193,46 @@
     font-size: 18px;
     line-height: 28px;
   }
-
-  .about_agency_wrapper h3 {
-    font-size: 25px;
-    line-height: 35px;
-  }
+.justify-content-center{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.banner_left_wrapper .banner_title {
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+.banner_left_wrapper .fw-bold {
+  font-size: 23px;
+  line-height: 30px;
+}
+.banner_button button {
+  margin-bottom: 100px;
+  padding: 16px 18px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.about-agency {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.what_we_offer_wrapper {
+  border-bottom: 1.5px solid rgba(215, 224, 242, 0.6);
+  margin-bottom: 10px;
+}
+.about_agency_wrapper .agency_title {
+  font-weight: 700;
+  font-size: 15px;
+  color: rgba(5, 160, 129, 1);
+  margin-bottom: 30px;
+}
+.about_agency_wrapper h3 {
+  font-size: 22px;
+  line-height: 30px;
+}
 
   .about_agency_wrapper .agencyrightimg {
     width: 100%;
@@ -232,6 +275,11 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  .copyright p {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+}
   
   @media screen and (max-width: 768px) {
     .what_we_offer_wrapper .nav {
@@ -276,7 +324,7 @@
   #seeallvideo {
     height: auto;
     background-size: cover;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
     padding: 40px 20px;
   }
 
@@ -318,7 +366,7 @@
     font-size: 16px;
   }
   #residentials {
-    margin: 80px 0;
+    margin: 20px 0;
   }
 
   #residentials .residen_wrapper p {
@@ -358,9 +406,17 @@
 
   .meet_button {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
   }
-
+  .meet_button button {
+    font-weight: 700;
+    font-size: 18px;
+    background-color: rgba(5, 160, 129, 1);
+    padding: 15px 18px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+}
   .meet_button button {
     font-size: 16px;
     padding: 12px 15px;
@@ -371,10 +427,7 @@
     padding: 20px 5px;
   }
 
-  .test_title_wrapper h3 {
-    font-size: 25px;
-    line-height: 35px;
-  }
+
 
   #testimonial .testimonialbg {
     padding: 60px 20px;
@@ -384,12 +437,11 @@
   }
 
   .test_title_wrapper h3 {
-    font-size: 28px;
+    font-size: 22px;
     line-height: 36px;
     width: auto;
-    margin-bottom: 20px;
-  }
-
+    margin-bottom: 15px;
+}
   .test_title_wrapper .real_des {
     font-size: 16px;
     line-height: 24px;
