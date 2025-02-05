@@ -1,8 +1,5 @@
-/* Responsive CSS */
-
-/* Common Responsive Styles */
 @media (max-width: 1200px) {
-  /* Adjustments for large desktops */
+
   .navbar-nav {
     flex-direction: column;
     align-items: center;
@@ -75,7 +72,7 @@
 }
 
 @media (max-width: 992px) {
-  /* Adjustments for tablets */
+  
   .banner_left_wrapper .fw-bold {
     font-size: 50px;
     line-height: 70px;
@@ -141,7 +138,7 @@
 }
 
 @media (max-width: 768px) {
-  /* Adjustments for small tablets and large phones */
+  
   .banner_left_wrapper .fw-bold {
     font-size: 40px;
     line-height: 60px;
@@ -176,7 +173,7 @@
 }
 
 @media (max-width: 576px) {
-  /* Adjustments for mobile phones */
+
   .navbar {
     margin-top: 0 !important;
     border: none;
