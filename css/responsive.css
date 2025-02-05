@@ -279,6 +279,11 @@
     font-size: 13px;
     margin-top: 15px;
   }
+  .d-flex {
+    display: flex!important;
+    justify-content: center;
+    column-gap: 10px;
+}
 }
   
   @media screen and (max-width: 768px) {
@@ -610,4 +615,9 @@
     font-size: 18px;
     margin-top: 15px;
   }
+  .d-flex {
+    display: flex!important;
+    justify-content: center;
+    column-gap: 10px;
+}
 }
